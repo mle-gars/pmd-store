@@ -7,9 +7,7 @@ export class ProductsService {
 
     constructor(private readonly appService:AppService){}
     
-    getProducts(): string {
-        return this.appService.getHello() + 'cars & bids'
-    }
+    
 
     getAllProducts(): string [] {
         return ['cars', 'bids']
